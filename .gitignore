@@ -1,0 +1,33 @@
+# Xcode / build output
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.xcscmblueprint
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Personal signing settings (Team ID, bundle prefix) — never commit
+Config/Signing.local.xcconfig
+
+# Secrets — never commit
+*.p8
+*.p12
+*.cer
+*.mobileprovision
+*.provisionprofile
+.env
+.env.*
+AuthKey_*
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Tooling
+.claude/
+.vscode/
+.idea/
+*.swp

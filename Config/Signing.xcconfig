@@ -1,0 +1,17 @@
+// Code signing for Wayfinder.
+//
+// To run Wayfinder on your own Apple Watch, either fill in the two values below, or (better)
+// create Config/Signing.local.xcconfig with your own values. That file is git-ignored, so your
+// Team ID never ends up in a commit:
+//
+//     DEVELOPMENT_TEAM = ABCDE12345
+//     BUNDLE_ID_PREFIX = com.yourname
+//
+// DEVELOPMENT_TEAM: Xcode ▸ Settings ▸ Accounts ▸ (your Apple ID) ▸ Team ID.
+//                   A free Apple ID ("Personal Team") works.
+// BUNDLE_ID_PREFIX: anything unique to you, in reverse-DNS style.
+
+DEVELOPMENT_TEAM =
+BUNDLE_ID_PREFIX = com.example
+
+#include? "Signing.local.xcconfig"

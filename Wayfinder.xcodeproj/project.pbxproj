@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0324CB2E4FE9396C02894BF4 /* PlaceDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDB7403587D5AB2C098F51A /* PlaceDetailView.swift */; };
+		060FC230A4DC584E1A149C9C /* Guidance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C42C2A08D4234B2C5C849A /* Guidance.swift */; };
+		0B2B94E4ECF39CAC3FC2CF9B /* GoogleMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09ADBA34B6E7C472583B7709 /* GoogleMapView.swift */; };
+		0DD8178EBBD88C1621F5BF4C /* WayfinderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A11070D97661F379908834 /* WayfinderApp.swift */; };
+		26374DF61D0D0C62D3833F74 /* ToolViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEDBB1F90633FFA07021C6C /* ToolViews.swift */; };
+		26922D466AFABD9D410B34AD /* MapIntents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97FE4E3B213D186A2D27E272 /* MapIntents.swift */; };
+		30734F75F5D97A0C9A0A07EF /* DirectionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7877B7BD6180DC16DF82C792 /* DirectionsView.swift */; };
+		31F893285E7E965542E70828 /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDD23E3838C471F4C1B17A8 /* Components.swift */; };
+		3779FA6E98D843D9F732E4CE /* NavigationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3BA1371DA248B2E61415A4 /* NavigationScreen.swift */; };
+		502BB8BF2625CC9AF122AF09 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BBFA8BC7130730767BC99D /* RootView.swift */; };
+		5A84E6EA4159558C5BA35FC3 /* Complications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1EE537D9B44583ED191B90 /* Complications.swift */; };
+		5F8366D4B443492474001E2B /* NavigationEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA927C9C0109A16A2D6872E /* NavigationEngine.swift */; };
+		65F601F0DCC6FF982E1931C1 /* TileStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78D5AA75CCBB9A3CBA11C49 /* TileStore.swift */; };
+		72E402BC7C4E905F2B784138 /* TravelMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A44C2734C92EB1BD5ADFFCE /* TravelMode.swift */; };
+		75EF917C2A7FF307B33AF704 /* Formatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AE5607E9734077A1C40A92 /* Formatting.swift */; };
+		7E16CE0E7267D45F829753FF /* GoogleDirections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1A26FBDD9C51F7A2591D82 /* GoogleDirections.swift */; };
+		8147BE9791523A443930D8E0 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC985490A8C1CD869878A22C /* Route.swift */; };
+		85A86C8A828B97A0C152338B /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014D200E5D1E1F93B6841C08 /* ExploreView.swift */; };
+		8B878106F3B1E6C38624A24C /* Stored.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB965366C2EF2C98B1F4BDB /* Stored.swift */; };
+		9E2EA55335947F9053A81162 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0016A128C0F9FCC30D405714 /* LocationService.swift */; };
+		A9A6546E843B46B06A4747AA /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C183E835EA0E57C9E7E3D5E4 /* Settings.swift */; };
+		B337B6EC0956238A5D2FE398 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1ED881AAEFBB3A8DBDE0A93 /* SearchView.swift */; };
+		B60F91C37D13459E30A92ACE /* GoogleClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB3FE0D239B34219F4998FD /* GoogleClient.swift */; };
+		B615E446813E4AF4512DD5FD /* PlusCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFE08B8F69B5B12D5926CEB /* PlusCode.swift */; };
+		D600778EC6A0328C3B8CF68A /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842552AE67F91DC173FF5D99 /* AppModel.swift */; };
+		EBB42AFFBB4F5F8763CB761C /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BAA0D280E2675080057B98 /* Place.swift */; };
+		EEA5143C93D66E052693904A /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84F1654E503CC068C733B36 /* MapController.swift */; };
+		F45185C3148FA905264CB167 /* WayfinderWidgets.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 44D9F96DC28C1C223B3BF63A /* WayfinderWidgets.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F775E8F9B58EFC6F35C74E28 /* MenuViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DEB1F1BB753650F9FC8F7A /* MenuViews.swift */; };
+		F89B3169EAFEDB4BD3CF182F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AF074EE9D2EA70880D452A5 /* Assets.xcassets */; };
+		FA51AF17A9AE8B16F9B40579 /* GoogleSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9895213E2EE939C33B71471D /* GoogleSearch.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA48DB5E8EA9AAF41AFC5C12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9499B4BE23B59EED43F9A70F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A807A2EF7E24DBDA07C3B64C;
+			remoteInfo = WayfinderWidgets;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C1DD5CB88884B0A5484EA877 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F45185C3148FA905264CB167 /* WayfinderWidgets.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0016A128C0F9FCC30D405714 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		014D200E5D1E1F93B6841C08 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		09ADBA34B6E7C472583B7709 /* GoogleMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapView.swift; sourceTree = "<group>"; };
+		0CB3FE0D239B34219F4998FD /* GoogleClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleClient.swift; sourceTree = "<group>"; };
+		0DDB7403587D5AB2C098F51A /* PlaceDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceDetailView.swift; sourceTree = "<group>"; };
+		0E3BA1371DA248B2E61415A4 /* NavigationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationScreen.swift; sourceTree = "<group>"; };
+		17BBFA8BC7130730767BC99D /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		18AE5607E9734077A1C40A92 /* Formatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formatting.swift; sourceTree = "<group>"; };
+		1A44C2734C92EB1BD5ADFFCE /* TravelMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelMode.swift; sourceTree = "<group>"; };
+		25DEB1F1BB753650F9FC8F7A /* MenuViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViews.swift; sourceTree = "<group>"; };
+		3AF074EE9D2EA70880D452A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44D9F96DC28C1C223B3BF63A /* WayfinderWidgets.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WayfinderWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		45A11070D97661F379908834 /* WayfinderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WayfinderApp.swift; sourceTree = "<group>"; };
+		51BAA0D280E2675080057B98 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		5CDD23E3838C471F4C1B17A8 /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		5F1A26FBDD9C51F7A2591D82 /* GoogleDirections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleDirections.swift; sourceTree = "<group>"; };
+		65C42C2A08D4234B2C5C849A /* Guidance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guidance.swift; sourceTree = "<group>"; };
+		7877B7BD6180DC16DF82C792 /* DirectionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionsView.swift; sourceTree = "<group>"; };
+		7CFCA1B8EEBB9B7613A018C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		842552AE67F91DC173FF5D99 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		97FE4E3B213D186A2D27E272 /* MapIntents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapIntents.swift; sourceTree = "<group>"; };
+		9895213E2EE939C33B71471D /* GoogleSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleSearch.swift; sourceTree = "<group>"; };
+		9C1EE537D9B44583ED191B90 /* Complications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Complications.swift; sourceTree = "<group>"; };
+		AC985490A8C1CD869878A22C /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		B1ED881AAEFBB3A8DBDE0A93 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		C183E835EA0E57C9E7E3D5E4 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		CBEDBB1F90633FFA07021C6C /* ToolViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolViews.swift; sourceTree = "<group>"; };
+		CD07D5E74A73936D1CF2A024 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		CFB965366C2EF2C98B1F4BDB /* Stored.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stored.swift; sourceTree = "<group>"; };
+		CFFE08B8F69B5B12D5926CEB /* PlusCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusCode.swift; sourceTree = "<group>"; };
+		D711CAEA02112EA5EFD9E23E /* Signing.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Signing.xcconfig; sourceTree = "<group>"; };
+		E0742DF725CEB179418C7ECE /* Wayfinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wayfinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E78D5AA75CCBB9A3CBA11C49 /* TileStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileStore.swift; sourceTree = "<group>"; };
+		F84F1654E503CC068C733B36 /* MapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
+		FFA927C9C0109A16A2D6872E /* NavigationEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationEngine.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		159EE6B1BD1BFCC359F9F2DD /* Wayfinder */ = {
+			isa = PBXGroup;
+			children = (
+				3AF074EE9D2EA70880D452A5 /* Assets.xcassets */,
+				7CFCA1B8EEBB9B7613A018C3 /* Info.plist */,
+				258EA6EA0D3E1D7B522030FE /* App */,
+				7A76B709AD5CF258B934AB49 /* Core */,
+				C3BDB71613D2332ABAA30926 /* Intents */,
+				6A750604414027A349EC50EA /* Map */,
+				C4B1204206BD87BD88EB7CC1 /* Models */,
+				66C55ED93C682C7875960F9C /* Views */,
+			);
+			path = Wayfinder;
+			sourceTree = "<group>";
+		};
+		1A7BAA236DF91355ADBF2AD4 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				CBEDBB1F90633FFA07021C6C /* ToolViews.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		258EA6EA0D3E1D7B522030FE /* App */ = {
+			isa = PBXGroup;
+			children = (
+				842552AE67F91DC173FF5D99 /* AppModel.swift */,
+				45A11070D97661F379908834 /* WayfinderApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		52C1A4749E4BC9CB86EDBFA5 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				0E3BA1371DA248B2E61415A4 /* NavigationScreen.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		5A3B9001F44ADA1D4257BFC6 /* WayfinderWidgets */ = {
+			isa = PBXGroup;
+			children = (
+				9C1EE537D9B44583ED191B90 /* Complications.swift */,
+				CD07D5E74A73936D1CF2A024 /* Info.plist */,
+			);
+			path = WayfinderWidgets;
+			sourceTree = "<group>";
+		};
+		66C55ED93C682C7875960F9C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				17BBFA8BC7130730767BC99D /* RootView.swift */,
+				96A2AFF896C493A7BA6CF98C /* Components */,
+				E530D8859246C704DB84934B /* Directions */,
+				881DFA9A2B70BBDE3E9F8D73 /* Explore */,
+				52C1A4749E4BC9CB86EDBFA5 /* Navigation */,
+				8C5AA389F52E6C327B808032 /* Place */,
+				8318C7E2C566F85350240726 /* Saved */,
+				1A7BAA236DF91355ADBF2AD4 /* Tools */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6A750604414027A349EC50EA /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				09ADBA34B6E7C472583B7709 /* GoogleMapView.swift */,
+				F84F1654E503CC068C733B36 /* MapController.swift */,
+				E78D5AA75CCBB9A3CBA11C49 /* TileStore.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		776BF138FF362267C0B8D862 = {
+			isa = PBXGroup;
+			children = (
+				A5E168F9BDCB3A08FC664720 /* Config */,
+				159EE6B1BD1BFCC359F9F2DD /* Wayfinder */,
+				5A3B9001F44ADA1D4257BFC6 /* WayfinderWidgets */,
+				92BB247E6C7A42A1EA90A8CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7A76B709AD5CF258B934AB49 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				18AE5607E9734077A1C40A92 /* Formatting.swift */,
+				0CB3FE0D239B34219F4998FD /* GoogleClient.swift */,
+				5F1A26FBDD9C51F7A2591D82 /* GoogleDirections.swift */,
+				9895213E2EE939C33B71471D /* GoogleSearch.swift */,
+				65C42C2A08D4234B2C5C849A /* Guidance.swift */,
+				0016A128C0F9FCC30D405714 /* LocationService.swift */,
+				FFA927C9C0109A16A2D6872E /* NavigationEngine.swift */,
+				CFFE08B8F69B5B12D5926CEB /* PlusCode.swift */,
+				C183E835EA0E57C9E7E3D5E4 /* Settings.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		8318C7E2C566F85350240726 /* Saved */ = {
+			isa = PBXGroup;
+			children = (
+				25DEB1F1BB753650F9FC8F7A /* MenuViews.swift */,
+			);
+			path = Saved;
+			sourceTree = "<group>";
+		};
+		881DFA9A2B70BBDE3E9F8D73 /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				014D200E5D1E1F93B6841C08 /* ExploreView.swift */,
+				B1ED881AAEFBB3A8DBDE0A93 /* SearchView.swift */,
+			);
+			path = Explore;
+			sourceTree = "<group>";
+		};
+		8C5AA389F52E6C327B808032 /* Place */ = {
+			isa = PBXGroup;
+			children = (
+				0DDB7403587D5AB2C098F51A /* PlaceDetailView.swift */,
+			);
+			path = Place;
+			sourceTree = "<group>";
+		};
+		92BB247E6C7A42A1EA90A8CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0742DF725CEB179418C7ECE /* Wayfinder.app */,
+				44D9F96DC28C1C223B3BF63A /* WayfinderWidgets.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96A2AFF896C493A7BA6CF98C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				5CDD23E3838C471F4C1B17A8 /* Components.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A5E168F9BDCB3A08FC664720 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				D711CAEA02112EA5EFD9E23E /* Signing.xcconfig */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		C3BDB71613D2332ABAA30926 /* Intents */ = {
+			isa = PBXGroup;
+			children = (
+				97FE4E3B213D186A2D27E272 /* MapIntents.swift */,
+			);
+			path = Intents;
+			sourceTree = "<group>";
+		};
+		C4B1204206BD87BD88EB7CC1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				51BAA0D280E2675080057B98 /* Place.swift */,
+				AC985490A8C1CD869878A22C /* Route.swift */,
+				CFB965366C2EF2C98B1F4BDB /* Stored.swift */,
+				1A44C2734C92EB1BD5ADFFCE /* TravelMode.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E530D8859246C704DB84934B /* Directions */ = {
+			isa = PBXGroup;
+			children = (
+				7877B7BD6180DC16DF82C792 /* DirectionsView.swift */,
+			);
+			path = Directions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CCD64EFA405A4E4B31C5B9A /* Wayfinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC02A163D0EC3342CA09734B /* Build configuration list for PBXNativeTarget "Wayfinder" */;
+			buildPhases = (
+				D9BC036FCCD3DF31E6029D4F /* Sources */,
+				1B7138E196FE8BE5D06C8AE9 /* Resources */,
+				C1DD5CB88884B0A5484EA877 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FB63FB46B7AB2902D3111F2 /* PBXTargetDependency */,
+			);
+			name = Wayfinder;
+			packageProductDependencies = (
+			);
+			productName = Wayfinder;
+			productReference = E0742DF725CEB179418C7ECE /* Wayfinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A807A2EF7E24DBDA07C3B64C /* WayfinderWidgets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74F551190A5C3DA8DDF94684 /* Build configuration list for PBXNativeTarget "WayfinderWidgets" */;
+			buildPhases = (
+				FD5068FA14D94BEF367C87AB /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WayfinderWidgets;
+			packageProductDependencies = (
+			);
+			productName = WayfinderWidgets;
+			productReference = 44D9F96DC28C1C223B3BF63A /* WayfinderWidgets.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9499B4BE23B59EED43F9A70F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					3CCD64EFA405A4E4B31C5B9A = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					A807A2EF7E24DBDA07C3B64C = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 38C1857F17A1D050119316EB /* Build configuration list for PBXProject "Wayfinder" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 776BF138FF362267C0B8D862;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 92BB247E6C7A42A1EA90A8CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CCD64EFA405A4E4B31C5B9A /* Wayfinder */,
+				A807A2EF7E24DBDA07C3B64C /* WayfinderWidgets */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B7138E196FE8BE5D06C8AE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F89B3169EAFEDB4BD3CF182F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9BC036FCCD3DF31E6029D4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D600778EC6A0328C3B8CF68A /* AppModel.swift in Sources */,
+				31F893285E7E965542E70828 /* Components.swift in Sources */,
+				30734F75F5D97A0C9A0A07EF /* DirectionsView.swift in Sources */,
+				85A86C8A828B97A0C152338B /* ExploreView.swift in Sources */,
+				75EF917C2A7FF307B33AF704 /* Formatting.swift in Sources */,
+				B60F91C37D13459E30A92ACE /* GoogleClient.swift in Sources */,
+				7E16CE0E7267D45F829753FF /* GoogleDirections.swift in Sources */,
+				0B2B94E4ECF39CAC3FC2CF9B /* GoogleMapView.swift in Sources */,
+				FA51AF17A9AE8B16F9B40579 /* GoogleSearch.swift in Sources */,
+				060FC230A4DC584E1A149C9C /* Guidance.swift in Sources */,
+				9E2EA55335947F9053A81162 /* LocationService.swift in Sources */,
+				EEA5143C93D66E052693904A /* MapController.swift in Sources */,
+				26922D466AFABD9D410B34AD /* MapIntents.swift in Sources */,
+				F775E8F9B58EFC6F35C74E28 /* MenuViews.swift in Sources */,
+				5F8366D4B443492474001E2B /* NavigationEngine.swift in Sources */,
+				3779FA6E98D843D9F732E4CE /* NavigationScreen.swift in Sources */,
+				EBB42AFFBB4F5F8763CB761C /* Place.swift in Sources */,
+				0324CB2E4FE9396C02894BF4 /* PlaceDetailView.swift in Sources */,
+				B615E446813E4AF4512DD5FD /* PlusCode.swift in Sources */,
+				502BB8BF2625CC9AF122AF09 /* RootView.swift in Sources */,
+				8147BE9791523A443930D8E0 /* Route.swift in Sources */,
+				B337B6EC0956238A5D2FE398 /* SearchView.swift in Sources */,
+				A9A6546E843B46B06A4747AA /* Settings.swift in Sources */,
+				8B878106F3B1E6C38624A24C /* Stored.swift in Sources */,
+				65F601F0DCC6FF982E1931C1 /* TileStore.swift in Sources */,
+				26374DF61D0D0C62D3833F74 /* ToolViews.swift in Sources */,
+				72E402BC7C4E905F2B784138 /* TravelMode.swift in Sources */,
+				0DD8178EBBD88C1621F5BF4C /* WayfinderApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD5068FA14D94BEF367C87AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A84E6EA4159558C5BA35FC3 /* Complications.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5FB63FB46B7AB2902D3111F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A807A2EF7E24DBDA07C3B64C /* WayfinderWidgets */;
+			targetProxy = FA48DB5E8EA9AAF41AFC5C12 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2141FE02C62DAD1878DD3A4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D711CAEA02112EA5EFD9E23E /* Signing.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		4D6753DA8F0325F04DC28533 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D711CAEA02112EA5EFD9E23E /* Signing.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+		BD5D753EB2E78FE5F5BBBE6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WayfinderWidgets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX).wayfinder.watchkitapp.widgets";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Debug;
+		};
+		CA67A1C62D040B8888E3C809 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WayfinderWidgets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX).wayfinder.watchkitapp.widgets";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Release;
+		};
+		E4019F73B8D81F3989A897F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				INFOPLIST_FILE = Wayfinder/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX).wayfinder.watchkitapp";
+				SDKROOT = watchos;
+				SKIP_INSTALL = NO;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Release;
+		};
+		FD59B24DA028A01EF42AD0C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				INFOPLIST_FILE = Wayfinder/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX).wayfinder.watchkitapp";
+				SDKROOT = watchos;
+				SKIP_INSTALL = NO;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38C1857F17A1D050119316EB /* Build configuration list for PBXProject "Wayfinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2141FE02C62DAD1878DD3A4A /* Debug */,
+				4D6753DA8F0325F04DC28533 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		74F551190A5C3DA8DDF94684 /* Build configuration list for PBXNativeTarget "WayfinderWidgets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD5D753EB2E78FE5F5BBBE6E /* Debug */,
+				CA67A1C62D040B8888E3C809 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BC02A163D0EC3342CA09734B /* Build configuration list for PBXNativeTarget "Wayfinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD59B24DA028A01EF42AD0C2 /* Debug */,
+				E4019F73B8D81F3989A897F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9499B4BE23B59EED43F9A70F /* Project object */;
+}
